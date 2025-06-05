@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -25,6 +30,25 @@
 .extrabold {
     font-weight: 800;
 }
+/* Font Size */
+.font-14 {
+    font-size: 14px;
+}
+.font-16 {
+    font-size: 16px;
+}
+.font-20 {
+    font-size: 20px;
+}
+.font-24 {
+    font-size: 24px;
+}
+.font-28 {
+    font-size: 28px;
+}
+.font-38 {
+    font-size: 38px;
+}
 
 .font-52 {
     font-size: 52px;
@@ -33,12 +57,13 @@
 .color-1 {
     color: rgba(0, 0, 0, 0.87);
 }
-
 .color-2 {
+    color: rgba(24, 25, 31, 1);
+}
+.color-3 {
     color: rgba(58, 58, 58, 1);
 }
-
-.color-3 {
+.color-4 {
     color: rgba(120, 120, 133, 1);
 }
 
@@ -90,7 +115,9 @@ header .nav-bar {
     color: rgba(224, 44, 109, 1);
     transition: color .3s ease-in-out;
 }
-
+.nav-icon{
+    margin-left: 30px;
+}
 .banner {
     display: flex;
     justify-content: space-between;
@@ -106,7 +133,9 @@ header .nav-bar {
 .banner-text {
     margin: 75px 500px 70px 0px;
 }
-
+.banner-text p{
+    margin: 16px 0;
+}
 .e-commerce-container {
     display: flex;
     align-items: center;
@@ -131,28 +160,48 @@ header .nav-bar {
     flex-direction: column;
     align-items: center;
 }
+.popular-products .headline {
+    margin-bottom: 30px;
+}
 
 .all_product {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-    margin: 0 196px;
+    margin: 0 250px;
 }
 
 .products {
     padding: 20px;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
-    height: 475px;
+    height: 476px;
     width: 330px;
 }
 
 .product_image {
     height: 265px;
     width: 100%;
+    margin-bottom: 16px;
 }
 
 .see-more-btn{
     margin-top: 20px;
+}
+
+/* Join Now Section */
+.join-now-section {
+    display: flex;
+    /* margin-left: 100px; */
+}
+.join-now {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 95px;
+    margin: 100px 250px 100px 250px;
+}
+.join-now-section p{
+    margin:16px 274px 16px 0;
 }
