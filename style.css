@@ -78,6 +78,7 @@
     border-radius: 30px;
     cursor: pointer;
     font-size: 16px;
+    font-family: "Poppins", sans-serif;
 }
 
 
@@ -176,8 +177,6 @@ header .nav-bar {
     padding: 20px;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
-    height: 476px;
-    width: 330px;
 }
 
 .product_image {
@@ -204,4 +203,20 @@ header .nav-bar {
 }
 .join-now-section p{
     margin:16px 274px 16px 0;
+}
+
+/* Footer */
+.footer-container{
+    background-color: rgb(10,8,38);
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer-container p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.social-icons{
+    margin-top: 17px;
 }
