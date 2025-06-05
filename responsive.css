@@ -1,0 +1,54 @@
+@media screen and (max-width: 587px) {
+  .nav-bar{
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+  }
+  .nav-bar div h2{
+    margin: 0;
+    padding: 0;
+  }
+  .banner img{
+    display: none;
+  }
+  .banner {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .e-commerce-container {
+    flex-wrap: wrap;
+    border: none;
+    margin: 0;
+  }
+  .banner-text {
+    margin-top: 50px ;
+    margin-bottom: 50px;
+  }
+  .all_product {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+  }
+  .popular-products .headline {
+    margin-top: 30px;
+    }
+  .join-now{
+    margin: 10px 0 10px 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  .join-now-section p{
+    margin: 0;
+  }
+  .join-now img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  .join-now button{
+    margin: 20px 0 20px 100px;
+    
+  }
+}
