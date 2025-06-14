@@ -34,8 +34,9 @@
 
   .e-commerce-container {
     flex-wrap: wrap;
+    gap:20px;
     border: none;
-    margin: 0;
+    margin: 10px 0 50px 0;
   }
 
   .banner-text {
