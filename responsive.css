@@ -1,4 +1,5 @@
 @media screen and (max-width: 587px) {
+
   .nav-bar {
     flex-direction: column;
     gap: 40px;
@@ -23,13 +24,12 @@
 
   .banner {
     margin: 0;
-    margin-left: calc(50% - 30%);
     text-align: center;
     width: 100%;
   }
 
   .banner button {
-    margin-left: calc(50% - 30%);
+    margin-left: calc(50% - 20%);
   }
 
   .e-commerce-container {
@@ -39,6 +39,7 @@
   }
 
   .banner-text {
+    margin: 0;
     margin-top: 50px;
     margin-bottom: 50px;
   }
