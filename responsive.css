@@ -1,5 +1,8 @@
 @media screen and (max-width: 587px) {
 
+  header{
+    padding: 0px;
+  }
   .nav-bar {
     flex-direction: column;
     gap: 40px;
@@ -12,11 +15,13 @@
     gap: 20px;
     cursor: pointer;
   }
-  
-  /* .nav-items{
+
+  .nav-links .nav-icon{
     margin: 0;
-    gap:30px
-  } */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
   .nav-bar div h2 {
     margin: 0;
     padding: 0;
@@ -37,9 +42,10 @@
   }
 
   .e-commerce-container {
+    height: auto;
     flex-wrap: wrap;
-    gap:20px;
-    border: none;
+    gap:15px;
+    padding: 10px;
     margin: 10px 0 50px 0;
   }
 
